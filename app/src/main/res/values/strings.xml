@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Getting Ready</string>
+    <string name="aboutme">La importancia de tener como programador de Android una Aplicación con tu C.V.:
+
+        A estas alturas seguramente todos nostros conocemos about.me, una de las aplicaciones más famosas
+        que usan tanto personas como empresas de todo el mundo para tener su perfil en la web con estilo
+        de tarjeta de visita.
+
+        Un currículum vitae es tu carta de presentación a la empresa a la que optes en tu búsqueda de empleo,
+        los encargados de seleccionar personal se encontrarán con tu currículum vitae como primera referencia y,
+        por lo tanto, la importancia de un buen currículum vitae radica en que, presentar un currículum pobre o
+        un buen currículum puede marcar una diferencia crucial: la de encontrar o no trabajo. Así pues, no desestimes
+        nunca la importancia de un buen currículum vitae y pon todo tu empeño para que tu currículum sea impecable.
+
+        Ahora presentar una aplicación android  con tu C.V. para que sea más fácil  de compartir nuestro perfil entre
+        nuestros contactos, y que mas tener uno como programador android, nuestra propia aplicacion personal con toda
+        tu información para que sea mucho mas facil de contactar y de ver tus cualidades como programador.
+
+    </string>
+
+    <string name="componentes">Estas son las vistas basicas de Android, que debemos aprender:
+
+        RadioButton: Nos permite 2 opciones activado (true) o desactivado (false)
+
+        -RadioGroup: Es un contenedor que nos permite englobar a los RadioButton de forma
+         que solo pueda activarse uno de ellos a la vez cuando esten dentro de este elemento.
+
+        -CheckBox: Es un componente que nos permite 2 opciones estar marcado o desmarcado.
+
+        -SeekBar: Un SeekBar es una extensión de ProgressBar que agrega un pulgar draggable.
+         El usuario puede tocar el pulgar y arrastrar hacia la izquierda o la derecha para
+         establecer el nivel de progreso actual o utilizar las teclas de flecha. Colocar widgets
+         que se pueden enfocar a la izquierda o derecha de un SeekBar.
+
+    </string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

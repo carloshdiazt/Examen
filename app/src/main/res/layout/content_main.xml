@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cl.carlos.examen.window.MainActivity"
+    android:layout_marginTop="40dp"
+    >
+
+      <TextView
+        android:text="Estas son las primeras clases para Programación de Android:"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"/>
+
+    <RadioGroup
+        android:id="@+id/clasesRg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RadioButton
+            android:id="@+id/aboutmeRb"
+            android:text="Crear una AboutME"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/inputRb"
+            android:text="Crear: checkBox, seekBar, radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+        <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/sendBtn"
+        android:text="Siguiente"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <fragment
+        android:id="@+id/callFragment"
+        android:name="cl.carlos.examen.window.CallFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_call" />
+
+
+
+
+</LinearLayout>
